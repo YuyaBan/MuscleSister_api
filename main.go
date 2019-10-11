@@ -24,7 +24,7 @@ var (
 	maxID = int32(0)
 )
 
-func Get(w http.ResponseWriter, r *http.Request) {
+func Road(w http.ResponseWriter, r *http.Request) {
 	log.Println("[+] Get start")
 
 	idStr := strings.TrimPrefix(r.RequestURI, "/")
@@ -142,10 +142,9 @@ func main() {
 
 	mux := http.DefaultServeMux
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		log.Println("[*] pass1")
 		switch r.Method {
 		case http.MethodGet:
-			Get(w, r)
+			Road(w, r)
 		case http.MethodPost:
 			Create(w, r)
 		case http.MethodPatch, http.MethodPut:

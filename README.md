@@ -24,4 +24,4 @@
 [MIT](https://github.com/YuyaBan/MuscleSister_api/blob/master/LICENSE)
 
 ## Author
-[YuyaBan](https://github.com/YuyaBan)
+[Yuya Ban](https://github.com/YuyaBan)
