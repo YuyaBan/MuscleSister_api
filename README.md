@@ -19,3 +19,9 @@
         * PutMethod change done_flag to true
 * DELETE
     * curl -XDELETE localhost:<port_number>/1
+
+## License
+[MIT](https://github.com/YuyaBan/MuscleSister_api/blob/master/LICENSE)
+
+## Author
+[YuyaBan](https://github.com/YuyaBan)
